@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  font-family: helvetica,sans-serif;
+}
+
+.textarea {
+  resize: none;
+  width: 150px;
+}
+
+.board {
+  padding: 10px;
+}
+
+.comment {
+  width: 180px; 
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.text {
+  text-align: center;
+  padding: 5px;
+}
+
+.button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  margin: 0px 5px 0px 5px;
+}
+
+.button:hover {
+  color: #555555;
+}
+
+.edit {
+  background-color: #9de24f;
+  width: 70px;
+  height: 40px;
+}
+
+.remove {
+  background-color: #ff6666;
+  width: 70px;
+  height: 40px;
+}
+
+.save {
+  background-color: #87cefa;
+  width: 70px;
+  height: 40px;
+}
+
+.add {
+  background-color: navajowhite;
+  width: 170px;
+  height: 40px;
+}
